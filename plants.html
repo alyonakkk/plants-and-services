@@ -1,0 +1,313 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Растения и аксессуары</title>
+    <!-- css -->
+    <link href="/styles/general-style.css" rel="stylesheet">
+    <link href="/styles/plants.css" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="main-screen bc-img">
+        <header class="main-screen__header">
+            <a href="index.html" class="main-screen__logo">
+                <h1 class="main__screen__h1">plants & services</h1>
+            </a>
+            <ul class="main-screen__list">
+                <a href="phytodesign.html" class="main-screen__list__a">
+                    <li>Фитодизайн</li>
+                </a>
+                <a href="vertical-garden.html" class="main-screen__list__a">
+                    <li>Вертикальные сады</li>
+                </a>
+                <a href="plants.html" class="main-screen__list__a">
+                    <li class="main-screen__list__li">Растения и аксессуары</li>
+                </a>
+                <a href="services-and-prices.html" class="main-screen__list__a">
+                    <li>Сервис и цены</li>
+                </a>
+                <a href="about.html" class="main-screen__list__a">
+                    <li>О нас</li>
+                </a>
+            </ul>
+            <button class="main-screen__menu-icon">
+                <img src="/img/menu.png" alt="" class="menu-icon">
+            </button>
+            <button class="main-screen__close-icon">
+                <img src="/img/close.png" alt="" class="close-icon">
+            </button>
+        </header>
+
+        <div class="main-screen__main">
+            <div class="main-screen__text">
+                <p>РАСТЕНИЯ И АКСЕССУАРЫ</p>
+            </div>
+        </div>
+
+    </div>
+
+    <main class="main">
+        <section class="plants main-section">
+            <div class="plants__title flex">
+                <h1 class="plants__h1 main-h1">Растения</h1>
+                <p class="plants__p main-p">Мы расскажем о том как сделать так, чтобы растения полюбили Вас в ответ</p>
+                <div class="line"></div>
+            </div>
+            <div class="plants__flex-list">
+                <ul class="plants__list">
+                    <a href="#" class="plants__a js-all" data-filter="all">
+                        <li>Все</li>
+                    </a>
+                    <a href="#" class="plants__a js-plants" data-filter="plants">
+                        <li>Растения</li>
+                    </a>
+                    <a href="#" class="plants__a js-accessories" data-filter="accessories">
+                        <li>Аксессуары</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="plants__flexbox">
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/agava.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Агава</p>
+                        <p class="plants__price js-plants-price">2 450 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/aloe.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Алоэ</p>
+                        <p class="plants__price js-plants-price">710 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/bei.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Аглаонема Сильвер Бе</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/cactus.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Кактус микс</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/hoya.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Хойя</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/kalanhoe.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Каланхое</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/lucky.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Бамбук Лаки</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/maria.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Аглаонема Мария</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/phicus.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Фикус</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/polli.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Алоказия Полли</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/youkka.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Юкка</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/zamiokulacs.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Замиокулкас</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/1.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Кашпо Экопотс Amsterdam D8 H7</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/2.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Кашпо Экопотс Amsterdam D10,5 H9</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/3.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Кашпо Экопотс Morinda D14 H16</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/4.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Кашпо Экопотс Amsterdam D13 H11,5</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/5.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">CUBI</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/6.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">MINI-DELTINI</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/7.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">CUBE Color</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/8.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">Кашпо Экопотс Amsterdam D17 H15</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="plants">
+                    <div class="plants__img">
+                        <img src="/plants_img/9.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">LECHUZA-PURO Color 20</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+                <div class="plants__container" data-cat="accessories">
+                    <div class="plants__img">
+                        <img src="/plants_img/10.jpg" alt="" class="main-img">
+                    </div>
+                    <div class="plants__text">
+                        <p class="plants__p main__p--bold">LECHUZA-PURO Color 20</p>
+                        <p class="plants__price js-plants-price">200 Р</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container flex">
+            <div class="footer__networks">
+                <div class="footer__networks-container">
+                    <img src="/img/instagram.png" alt="" class="network-icon">
+                </div>
+                <div class="footer__networks-container">
+                    <img src="/img/facebook.png" alt="" class="network-icon">
+                </div>
+                <div class="footer__networks-container">
+                    <img src="/img/twitter.png" alt="" class="network-icon">
+                </div>
+                <div class="footer__networks-container">
+                    <img src="/img/youtube.png" alt="" class="network-icon">
+                </div>
+            </div>
+            <div class="footer__text">
+                <p class="footer__p">Свяжись с нами!</p>
+                <span class="footer__span">+7 999 999 00 00</span>
+                <span class="footer__span">|</span>
+                <span class="footer__span">hello@gmail.com</span>
+            </div>
+        </div>
+        <div class="footer__container-topup">
+            <a href="#" target="_top" class="footer__toup">Наверх</a>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,52 @@
+.plants__flex-list{
+    margin-bottom: 70px;
+}
+
+.plants__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.plants__a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.plants__a:hover{
+    color: #00000050;
+}
+
+.plants__a:active{
+    color: #00000050;
+}
+
+.plants__flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px 0;
+}
+
+.plants__container{
+    max-width: 320px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.plants__p{
+    margin-bottom: 10px;
+}
+
+.plants__price{
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.js-hide{
+    display: none;
+}

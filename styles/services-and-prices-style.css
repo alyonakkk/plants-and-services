@@ -1,0 +1,27 @@
+.services-and-prices__grid{
+    margin-bottom: 40px;
+}
+
+.services-and-prices__item{
+    max-height: 180px;
+}
+
+.services-and-prices__title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-and-prices__title__p{
+    font-weight: bold;
+    text-align: left;
+}
+
+
+@media screen and (min-width: 768px) {
+    .services-and-prices__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0 40px;
+    }
+}

@@ -1,0 +1,36 @@
+.vertical-garden__container{
+    margin-bottom: 50px;
+}
+
+.vertical-garden__button{
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 15px 20px;
+    margin: 20px 0;
+}
+
+.vertical-garden__button:hover{
+    background-color: #c0c0c044;
+}
+
+@media screen and (min-width: 480px) {
+    .verical-garden__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 60px 40px;
+    }
+
+    .vertical-garden__container{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .verical-garden__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}
